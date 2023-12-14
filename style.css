@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.input{
+    text-align: center;
+}
+body{
+    display:inline grid;
+    width: 100%;
+    height: 100vh;
+    background: url("simon.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.input-box{
+   display: inline-grid;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:100px;
+    width: 450px;
+    border-radius: 8px;
+    padding:50px;
+    border: 5px solid rgba(218, 91, 154, 0.336);
+    font-size: 15px;
+    text-align: center;
+}
+.footer-tag{
+    margin-top: 360px;
+    word-spacing: 320px;
+    font-size:x-large;
+    background-color: white;
+    width: 1600px;
+
+}
+button{
+    width: 50%;
+    height: 40px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: plum;
+    font-weight: 500;
+}
+.sub{
+    margin-left: 10px;
+}
+.input select{
+    background: rgb(236, 145, 198);
+    color:black;
+}
+.input input{
+    background: rgb(236, 145, 198);
+    color:black;
+}
+a{
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(222, 164, 245) ;
+}
